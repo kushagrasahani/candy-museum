@@ -1,0 +1,77 @@
+body{
+    background-color: #f5d9d5;
+    font-family: 'Nunito',sans-serif;
+}
+.blurb h2{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#main{
+    font-size: 1.5rem;
+    font-family: 100;
+}
+#main .nav-link{
+    color: white;
+   
+}
+#main .nav-link:hover{
+    color:  #ea1c2c;
+}
+#main .navbar-brand{
+    color: #ea1c2c;
+    font-size: 2rem;
+    
+}
+#headingGroup span{
+    color: #ea1c2c;
+}
+#headingGroup h1{
+font-weight: 100;
+font-size: 4rem;
+}
+#headingGroup{
+    margin-top: 50px;
+}
+.navbar.scrolled{
+    background-color: turquoise;
+    transition: background-color 500ms;
+}
+@media(max-width:1270px){
+    #headingGroup h1{
+        font-size: 3rem;
+        font-weight: 100;
+    }
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#trans{
+    margin-left: 0px;
+    transition: margin-left 500ms ease-in;
+}
+#trans:hover{
+   margin-left: 10px;
+}
+#tran{
+    background-color: teal;
+    transition: background-color 500ms ease-out;
+}
+#tran:focus{
+    margin-right: 10px;
+    }
+  #tra{
+     margin-bottom: 100px; 
+     transition: margin-bottom 1s ease-in-out;
+  }  
+#tra:hover{
+margin-bottom: 110px;
+}
